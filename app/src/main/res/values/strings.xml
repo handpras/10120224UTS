@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hanung</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_daily">Daily Acitivty</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_music">Music</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="nama_saya">Hanung Dwi Prasetyo</string>
+    <string name="motivasi">"Selalu ada ruang untuk bertumbuh."</string>
+    <string name="interest">Interest</string>
+    <string name="dec_home">Nama Saya Hanung Dwi Prasetyo, 22 tahun.
+        Saya lahir di Jawa Tengah yang mayoritas orang-orangnya fasih dalam menggunakan Bahasa Jawa.
+        Tapi saya justru tidak menguasainya. Apakah itu hal yang aneh? :V
+    </string>
+    <string name="dec_home2">Saya merupakan anak ke 2 dari 2 bersaudara.
+        Saya sempat gapyear selama 1 tahun. Selama gapyear, banyak pelajaran hidup yang saya dapatkan.
+        Saya selalu overthinking dengan masa depan saya. Tapi saya sadar akan satu hal, rasa takut hanya akan
+        menunda keberhasilan.
+    </string>
+
+    <string name="friends_list">Friends List</string>
+
+
+    <string name="ig_akun"><a href="https://www.instagram.com/hanung_dprasetyo">hanung_dprasetyo</a></string>
+    <string name="fb_akun"><a href="https://www.facebook.com/hanung">hanung</a></string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".menu.fragment_home">
+
+    <LinearLayout
+        android:id="@+id/homeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:src="@drawable/myfoto_transparan" />
+
+        <TextView
+            style="@style/nama_saya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/nama_saya"
+            android:textAlignment="center"
+            android:textColor="@color/putihffff" />
+
+        <TextView
+            style="@style/motivasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/motivasi"
+            android:textAlignment="center"
+            android:textColor="@color/putihffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_profile"
+                style="@style/profile_btn"
+                android:layout_width="100dp"
+                android:layout_height="57dp"
+                android:drawableTop="@drawable/ic_baseline_person_24"
+                android:gravity="center"
+                android:onClick="deskripsi"
+                android:paddingTop="10dp"
+                android:text="@string/menu_profile" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_hobi"
+                style="@style/profile_btn"
+                android:layout_width="100dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="50dp"
+                android:drawableTop="@drawable/ic_baseline_sports_esports_24"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="@string/interest" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp">
+
+            <FrameLayout
+                android:id="@+id/page_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:background="@color/bg_app" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
